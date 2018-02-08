@@ -109,6 +109,10 @@
         $(this).find('iframe').removeClass('clicked')
       });
     </script>
+    <script>
+    $('body').on('contextmenu', 'img', function(e){ return false; });
+    $('body').on('contextmenu', 'video', function(e){ return false; });
+    </script>
 
   </body>
 

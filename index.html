@@ -78,6 +78,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+    $('body').on('contextmenu', 'img', function(e){ return false; });
+    $('body').on('contextmenu', 'video', function(e){ return false; });
+    </script>
 
   </body>
 
