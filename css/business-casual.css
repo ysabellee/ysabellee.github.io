@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5, h6, .text-heading {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .tagline-upper {
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   line-height: 1;
 }

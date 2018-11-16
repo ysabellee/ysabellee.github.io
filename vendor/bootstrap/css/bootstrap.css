@@ -6996,9 +6996,13 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 1rem !important;
 }
 
+.mt-5,
+.my-5 {
+  margin-bottom: 0.5rem !important;
+}
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important;
