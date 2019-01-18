@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, h6, .text-heading {
   font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@font-face {
+  font-family: 'Filmcryptic';
+  src: url('../film-cryptic/Filmcryptic.ttf')  format('truetype');
+}
+
+.text-heading-customized {
+    font-family: 'Filmcryptic'
+}
+
 h1 {
   font-size: 3.5rem;
 }
@@ -28,7 +37,7 @@ h1 {
 }
 
 .tagline-lower {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1;
 }
 
